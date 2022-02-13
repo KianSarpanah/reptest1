@@ -7,4 +7,4 @@ def health(request):
     return HttpResponse("OK")
 
 def home(request):
-    return HttpResponse("YES TRUE")
+    return HttpResponse("OK")
