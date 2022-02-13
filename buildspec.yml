@@ -9,15 +9,6 @@ phases:
       - echo Installing dependencies
       - pip install -r requirements.txt
 
-  build:
-    commands:
-      - echo Build started on `date`
-      - echo Running tests
-
-  post_build:
-    commands:
-      - echo Build completed on `date`
-
 
 artifacts:
   files:
